@@ -1,22 +1,29 @@
-<h1>Lucky draw game</h1>
-This program implements a simple Lucky Draw Game where the user can bet on drawing a specific card. If successful, their bet amount is doubled; otherwise, they lose the bet amount.
-<br><br>
-<strong>Usage:</strong>
-The user initializes their balance.
-The user can choose to play the game, view game rules, check their balance, or exit the program.
-<br><br>
-<strong>Functions:</strong>
-game(): Implements the core logic of the Lucky Draw Game. It takes user input for the bet amount and chosen card, checks for a match with the lucky card, and updates the balance accordingly.
-<br><br>
-<strong>Global Variables:</strong>
-balance: Represents the initial amount of money the user has.
-new_balance: Represents the current balance after each game.
-luck: Represents the randomly chosen lucky card for each game.
-<br><br>
-<strong>Error Handling:</strong>strong>
-The program includes a basic exception handling mechanism to gracefully exit the program in case of user input errors cause users sometimes are crazy.
-<br><br>
-<strong>User Interaction:</strong>
-The program provides a menu for the user to interact with, displaying options for playing the game, viewing game rules, checking the balance, or exiting the program
-<br><br>
-<strong>if you like this program please do leave a like cause am just learning python and am trying my best to come up with ideas <br><br>Thank you for checking my code with love from rexluv</strong>
+<h1>Lucky Draw Game</h1>
+
+<p>A game where you can test your luck and potentially double your money!</p>
+
+<h2>How to Play</h2>
+
+1. **Top Up:** Enter your starting balance when prompted.
+2. **Choose an Action:**
+   - Play game: Enter 1 to play.
+   - Help: Enter 2 to view game rules.
+   - Check balance: Enter 3 to view your current balance.
+   - Exit: Enter 4 to quit the game.
+3. **Placing a Bet (if playing):**
+   - Enter the amount you want to bet.
+4. **Picking a Card:**
+   - Choose a card from the options: A, 2, 3, 4, or 5.
+5. **Winning or Losing:**
+   - If your card matches the randomly drawn lucky card, you win double your bet!
+   - If your card doesn't match, you lose your bet amount.
+
+<h2>Exiting</h2>
+
+Choose "4. Exit" to quit the game.
+
+<h2>Libraries Used</h2>
+
+<ul>
+  <li>random</li>
+</ul>
